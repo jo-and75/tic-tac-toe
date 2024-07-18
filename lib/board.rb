@@ -1,7 +1,7 @@
-class board
+class Board
 
-def initialize
-  @board =  Array.new(9," ") 
+  def initialize
+    @board =  Array.new(9," ") 
   end
 end  
 
