@@ -1,5 +1,5 @@
 require_relative 'DrawBoard'
-require_relative 'Game' 
+require_relative 'game' 
 
 puts "GAME INSTRUCTIONS
 1. THE BOARD IS NUMBERED HORIZONTALLY FROM 1 TO 9 MOVING LEFT TO RIGHT
