@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 class DrawBoard
   attr_accessor :board
@@ -12,16 +13,16 @@ class DrawBoard
     puts "#{@board[3]} | #{@board[4]} | #{@board[5]}"
     puts '----------'
     puts "#{@board[6]} | #{@board[7]} | #{@board[8]}"
-  end 
+  end
 
   def set_position(index, symbol)
-    if @board[index] == " " 
-      @board[index] = symbol  
+    if @board[index] == ' '
+      @board[index] = symbol
       display_board
-      return true 
-    else  
-      puts "Position already taken. Please try again."
-      return false
+      true
+    else
+      puts 'Position already taken. Please try again.'
+      false
     end
-  end 
+  end
 end
